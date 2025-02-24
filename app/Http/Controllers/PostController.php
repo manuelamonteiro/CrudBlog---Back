@@ -15,10 +15,13 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::with(['user', 'comments.user'])->get();
+        $posts = Post::with(['user', 'comments.user'])
+                     ->orderBy('created_at', 'desc')
+                     ->get();
     
         return response()->json($posts);
     }
+    
 
     /**
      * Display the specified post with its comments.
