@@ -23,11 +23,11 @@ This project is a back-end API for a simple blog system with posts and comments.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/manuelamonteiro/CrudBlog---Back.git
    ```
 2. **Navigate to the project folder**:
    ```bash
-   cd your-repo
+   cd crud-blog
    ```
 3. **Install dependencies**:
    ```bash
